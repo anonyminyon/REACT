@@ -1,0 +1,28 @@
+
+body {
+  max-width: 100%;
+  margin: 0 auto; /* Center the content horizontally */
+  height: 100vh; /* Set the body height to 100% of the viewport height */
+  overflow-x: hidden; /* Hide horizontal scrollbar if content overflows */
+}
+
+.row-header {
+  margin: 0xp auto;
+  padding: 0xp;
+}
+
+.row-content {
+  margin: 0xp auto;
+  padding: 50xp 0xp 50xp 0xp;
+  border-bottom: 1xp ridge;
+  min-height: 400xp;
+}
+
+.footer {
+  background-color: rgb(173, 171, 173);
+  margin: 0xp auto;
+  padding: 20xp 0xp 20xp 0xp;
+}
+
+.jumbotron {
+}

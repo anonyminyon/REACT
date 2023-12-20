@@ -5,11 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-menu.css">
 </head>
 <body>
-    
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 " style="background-color: brown;">
+                    <div class="row row-header">header</div>
+                    <div class="row row-header">header</div>
+                    <div class="row row-header">header</div>
+                </div>
+                <div class="col col-sm " style="background-color: palevioletred;"></div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" style="background-color: blue;"></div>
+                <div class="col-md-9" style="background-color: chocolate;">
+                    <div class="row row-content">content</div>
+                    <div class="row row-content">content</div>
+                    <div class="row row-content">content</div>
+                    <div class="row row-content">content</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <h2>this is footer </h2>
+                <div class="col-md-3" style="background-color: yellow;">d</div>
+                <div class="col-md-3" style="background-color: green;"></div>
+                <div class="col-md-3" style="background-color: gray;"></div>
+                <div class="col-md-3" style="background-color: purple;"></div>
+            </div>
+        </div>
+    </footer>
+    <!-- JQuery first then popper.js then bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
-<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>
